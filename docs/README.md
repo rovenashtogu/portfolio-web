@@ -124,6 +124,10 @@
 - *Copyright Information:*
   - © 2023 Your Name
 
+### Screenshots
+
+![page1](./img/img.png)
+
 ## Design Considerations
 
 - *Color Scheme:*
