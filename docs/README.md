@@ -126,7 +126,13 @@
 
 ### Screenshots
 
-![page1](./img/img.png)
+![Home Page](./img/HomePage.drawio.svg)
+
+![About Me](./img/AboutMe.drawio.svg)
+
+![Skills](./img/Skills.drawio.svg)
+
+![Contact](./img/Contact.drawio.svg)
 
 ## Design Considerations
 
