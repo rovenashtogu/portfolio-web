@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Rovena Shtogu's Portfolio</title>
+    <link rel="stylesheet" href="../css/contact.css">
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/src/img/logo.png" alt="Your Logo">
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Me</a></li>
+                <li><a href="./skills.html">Skills</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <h1>Let's keep in touch...</h1>
+        <h3>You have a question? Contact me by filling the form.</h3>
+
+        <form action="https://formspree.io/f/xvojykle" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Your email:</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="message">Your message:</label><br>
+            <textarea id="message" name="message" rows="6" cols="30" style="margin-bottom: 5%;">Type here...</textarea>
+
+            <div class="button-container">
+                <input type="submit" name="" value="Send">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.linkedin.com/in/rovena-shtogu-50879b257/" target="_blank">
+                <img src="linkedin-icon.png" alt="LinkedIn">
+            </a>
+        </div>
+    
+        <p style="color: white;">&copy;Rovena Shtogu -2023 portfolio</p>
+    </footer>
+</body>
+
+</html>
