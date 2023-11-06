@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rovena Shtogu's - Portfolio</title>
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -16,21 +17,17 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
-        function scrollToAbout() {
-            const aboutSection = document.getElementById("about");
-            aboutSection.scrollIntoView({ behavior: "smooth" });
-        }
     </script>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="./img/logo.png" alt="Your Logo">
+            <div >
+                <img class="logo" src="./img/logo.png" alt="Your Logo">
             </div>
             <ul>
-                <li><a href="./home.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./pages/about.html">About Me</a></li>
                 <li><a href="./pages/skills.html">Skills</a></li>
                 <li><a href="./pages/contact.html">Contact</a></li>
@@ -40,7 +37,7 @@
 
 
     <main>
-        <section id="home" class="intro-section">
+        <section>
             <div class="intro-text">
                 <h1>Hi There...</h1>
                 <p>I am Rovena Shtogu </p>
@@ -52,17 +49,15 @@
                 <p>of software engineering in magic way</p>
                 <p>Synonyms: sorcerer, wizard, magician</p>
 
-                <a href="#about" class="learn-more-button" onclick="scrollToAbout()">Learn More</a>
-
+                <a href="./pages/about.html" class="learn-more-button">Learn More</a>
             </div>
-
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
             <a href="https://www.linkedin.com/in/rovena-shtogu-50879b257/" target="_blank">
-                <img src="linkedin-icon.png" alt="LinkedIn">
+                <img class="linkedin-logo" src="./img/linkedin-logo.png" alt="LinkedIn">
             </a>
         </div>
 

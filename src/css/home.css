@@ -1,95 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: whitesmoke;
-    overflow: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    transition: 0.3s;
-}
-
-header {
-    background-color: #e7a0e4;
-    color: white;
-    padding: 1em 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-li a:hover {
-    background-color: #9d5a93;
-    color: white;
-}
-
-.active {
-    background-color: #9d5a93;
-    color: white;
-}
-
-.logo {
-    position: fixed;
-    top: 0;
-    left: 10;
-    right: 50;
-    padding-left: 7rem;
-    z-index: 2;
-
-}
-
-.logo img {
-    max-width: 70px;
-}
-
-main {
-    margin-left: 220px;
-}
-
-.intro-section {
+section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 100px 0;
 }
 
@@ -108,71 +20,12 @@ main {
     text-align: center;
 }
 
-h1 {
-    font-size: 24px;
-}
-
-.learn-more-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #986190;
-    color: white;
-    text-decoration: none;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.learn-more-button:hover {
-    background-color: #fff;
-    color: #e08ddb;
-}
-
-footer {
-    background-color: #e7a0e4;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-}
-
-.footer-content {
-    max-width: 200px;
-    margin: 0 auto;
-}
 
 @media screen and (max-width: 600px) {
-    header {
-        width: 70px;
+    section {        
+        margin: 10px 0;
     }
-
-    ul {
-        width: 70px;
-    }
-
-    li {
-        margin-bottom: 10px;
-        padding: 6px 10px;
-
-    }
-
-    .logo {
-        padding-right: 3rem;
-
-    }
-
-    .logo img {
-        max-width: 30px;
-    }
-
-    h1 {
-        font-size: 15px;
-    }
-
+    
     .intro-text {
         max-width: 600px;
         padding: 10px;
@@ -180,13 +33,5 @@ footer {
         border-radius: 10px;
         text-align: center;
         color: white;
-    }
-
-    footer {
-        width: 61px;
-    }
-
-    .footer-content {
-        max-width: 70px;
     }
 }
